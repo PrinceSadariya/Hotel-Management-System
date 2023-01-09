@@ -1,0 +1,34 @@
+body {
+    min-height: 100vh;
+}
+.nav-link:active {
+    color: #fefefe !important;
+}
+
+.sidebar {
+    margin-top: 56px;
+}
+
+.side-div {
+    background-color: white;
+}
+.side-div:hover {
+    background-color: black;
+    color: white;
+}
+.side-div:hover .side-link {
+    color: white !important;
+}
+
+.side-link {
+    text-decoration: none;
+}
+
+footer {
+    position: sticky;
+    top: 100%;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
